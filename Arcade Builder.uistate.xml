@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="1">Arcades</layout>
+        <layout order="2">Smashbox</layout>
+        <event-sheet order="3">ES_Update</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="Buttons" />
+        <family expanded="0" name="Legend" />
+        <family expanded="0" name="Buttons_v2" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Buttons/" />
+        <folder expanded="0" path="object-folder/Legend/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/3K/" />
+        <folder expanded="1" path="animation-folder/3P/" />
+        <folder expanded="1" path="animation-folder/HK/" />
+        <folder expanded="1" path="animation-folder/HP/" />
+        <folder expanded="1" path="animation-folder/LK/" />
+        <folder expanded="1" path="animation-folder/MK/" />
+        <folder expanded="1" path="animation-folder/LP/" />
+        <folder expanded="1" path="animation-folder/MP/" />
+        <folder expanded="1" path="animation-folder/MODE/" />
+        <folder expanded="1" path="animation-folder/SELECT/" />
+        <folder expanded="1" path="animation-folder/START/" />
+        <folder expanded="1" path="animation-folder/STICK/" />
+        <folder expanded="1" path="animation-folder/HITBOX_LEFT/" />
+        <folder expanded="1" path="animation-folder/HITBOX_RIGHT/" />
+        <folder expanded="1" path="animation-folder/HITBOX_DOWN/" />
+        <folder expanded="1" path="animation-folder/HITBOX_UP/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_UP/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_DOWN/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_RIGHT/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_LEFT/" />
+        <folder expanded="1" path="animation-folder/MIXBOX_LEFT/" />
+        <folder expanded="1" path="animation-folder/MIXBOX_DOWN/" />
+        <folder expanded="1" path="animation-folder/MIXBOX_RIGHT/" />
+        <folder expanded="1" path="animation-folder/MIXBOX_UP/" />
+        <folder expanded="1" path="animation-folder/3K_DUAL/" />
+        <folder expanded="1" path="animation-folder/3P_DUAL/" />
+        <folder expanded="1" path="animation-folder/HK_DUAL/" />
+        <folder expanded="1" path="animation-folder/HP_DUAL/" />
+        <folder expanded="1" path="animation-folder/LK_DUAL/" />
+        <folder expanded="1" path="animation-folder/LP_DUAL/" />
+        <folder expanded="1" path="animation-folder/MK_DUAL/" />
+        <folder expanded="1" path="animation-folder/MP_DUAL/" />
+        <folder expanded="1" path="animation-folder/MODE_DUAL/" />
+        <folder expanded="1" path="animation-folder/SELECT_DUAL/" />
+        <folder expanded="1" path="animation-folder/START_DUAL/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_DOWN_DUAL/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_LEFT_DUAL/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_RIGHT_DUAL/" />
+        <folder expanded="1" path="animation-folder/CROSSUP_UP_DUAL/" />
+        <folder expanded="1" path="animation-folder/HITBOX_DOWN_DUAL/" />
+        <folder expanded="1" path="animation-folder/HITBOX_LEFT_DUAL/" />
+        <folder expanded="1" path="animation-folder/HITBOX_RIGHT_DUAL/" />
+        <folder expanded="1" path="animation-folder/HITBOX_UP_DUAL/" />
+        <folder expanded="1" path="animation-folder/EXTRA_1/" />
+        <folder expanded="1" path="animation-folder/EXTRA_2/" />
+        <folder expanded="1" path="animation-folder/EXTRA_3/" />
+        <folder expanded="1" path="animation-folder/EXTRA_4/" />
+        <folder expanded="1" path="animation-folder/EXTRA_5/" />
+        <folder expanded="1" path="animation-folder/EXTRA_6/" />
+        <folder expanded="1" path="animation-folder/EXTRA_1_border/" />
+        <folder expanded="1" path="animation-folder/EXTRA_2_border/" />
+        <folder expanded="1" path="animation-folder/EXTRA_3_border/" />
+        <folder expanded="1" path="animation-folder/EXTRA_4_border/" />
+        <folder expanded="1" path="animation-folder/EXTRA_5_border/" />
+        <folder expanded="1" path="animation-folder/EXTRA_6_border/" />
+        <folder expanded="1" path="animation-folder/EXTRA_7/" />
+        <folder expanded="1" path="animation-folder/EXTRA_8/" />
+        <folder expanded="1" path="animation-folder/EXTRA_9/" />
+        <folder expanded="1" path="animation-folder/EXTRA_10/" />
+        <folder expanded="1" path="animation-folder/EXTRA_11/" />
+        <folder expanded="1" path="animation-folder/leg_X/" />
+        <folder expanded="1" path="animation-folder/leg_O/" />
+        <folder expanded="1" path="animation-folder/leg_SQUARE/" />
+        <folder expanded="1" path="animation-folder/leg_TRIANGLE/" />
+        <folder expanded="1" path="animation-folder/leg_L1/" />
+        <folder expanded="1" path="animation-folder/leg_L2/" />
+        <folder expanded="1" path="animation-folder/leg_R1/" />
+        <folder expanded="1" path="animation-folder/leg_R2/" />
+        <folder expanded="1" path="animation-folder/OUTLINE/" />
+        <folder expanded="1" path="animation-folder/ART/" />
+        <folder expanded="1" path="animation-folder/LOGO/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Trans_Corner/" />
+        <folder expanded="1" path="animation-folder/OUTLINE_V2/" />
+        <folder expanded="1" path="animation-folder/Builder_BG/" />
+        <folder expanded="1" path="animation-folder/BTN_Universal_Stick/" />
+        <folder expanded="1" path="animation-folder/BTN_Universal/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/BTN_Universal_Border/" />
+        <folder expanded="1" path="animation-folder/BTN_Universal_Mix/" />
+    </folders-expanded>
+</c2uistate>

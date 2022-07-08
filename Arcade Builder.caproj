@@ -1,0 +1,1590 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Arcade Builder</name>
+    <description>Arcade Stick Builder HTML5</description>
+    <version>2.3</version>
+    <author>Ultra Arcade (Piu)</author>
+    <author-email>contato@ultraarcadebh.com.br</author-email>
+    <author-website>http://www.ultraarcadebh.com.br</author-website>
+    <app-id>UABH01</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects>
+        <effect author="Scirra" id="setcolor">Set color</effect>
+        <effect author="Scirra" id="tint">Tint</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Arcades</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">High quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Buttons">
+            <object-type name="3K" sid="896323873627113">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568535518898540" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\3K.png">
+                            <collision-poly>
+                                <point x="0.927195" y="0.5" />
+                                <point x="0.925054" y="0.821429" />
+                                <point x="0.846895" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="3P" sid="610711449245023">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="820294089098948" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\3P.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HK" sid="731394016301601">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687621721014508" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\HK.png">
+                            <collision-poly>
+                                <point x="0.769807" y="0.548469" />
+                                <point x="0.747323" y="0.5" />
+                                <point x="0.667024" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HP" sid="847942667642855">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402592684235419" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\HP.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LK" sid="631489052784110">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="535033729099503" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MK" sid="623526818193949">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="140869564823051" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\MK.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.484694" />
+                                <point x="0.567452" y="0.5" />
+                                <point x="0.5" y="0.834184" />
+                                <point x="0.486081" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LP" sid="727414948717241">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206815464850423" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LP.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MP" sid="609625453468343">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578735033835582" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\MP.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.0765306" />
+                                <point x="0.638116" y="0.137755" />
+                                <point x="0.5" y="0.298469" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MODE" sid="505518711601373">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107033944115487" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SELECT" sid="189678519414266">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332382351964581" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="START" sid="638638422728905">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100055738645565" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="STICK" sid="776149980068251">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377845871606608" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\Stick.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_LEFT" sid="143256559531088">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799410072539415" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_RIGHT" sid="112554933524359">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952016962334446" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_DOWN" sid="667141199027484">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466094341658249" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_UP" sid="942346803713317">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669428270272517" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_UP" sid="233976540300831">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210671359763156" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_DOWN" sid="282729745303770">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="892693198976846" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_RIGHT" sid="352580713648755">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="871227513817770" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_LEFT" sid="882342458616434">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392950241360783" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\LK.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MIXBOX_LEFT" sid="963441652196741">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514793849196124" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\keycap.png">
+                            <collision-poly>
+                                <point x="0.0285714" y="0.0285714" />
+                                <point x="0.5" y="0" />
+                                <point x="0.971429" y="0.0285714" />
+                                <point x="1" y="0.5" />
+                                <point x="0.971429" y="0.971429" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0285714" y="0.971429" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MIXBOX_DOWN" sid="198070328264108">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365251108460011" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\keycap.png">
+                            <collision-poly>
+                                <point x="0.0285714" y="0.0285714" />
+                                <point x="0.5" y="0" />
+                                <point x="0.971429" y="0.0285714" />
+                                <point x="1" y="0.5" />
+                                <point x="0.971429" y="0.971429" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0285714" y="0.971429" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MIXBOX_RIGHT" sid="662321731167334">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="312405691599323" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\keycap.png">
+                            <collision-poly>
+                                <point x="0.0285714" y="0.0285714" />
+                                <point x="0.5" y="0" />
+                                <point x="0.971429" y="0.0285714" />
+                                <point x="1" y="0.5" />
+                                <point x="0.971429" y="0.971429" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0285714" y="0.971429" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MIXBOX_UP" sid="817274701040949">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="810955065161810" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\arcade builder\keycap.png">
+                            <collision-poly>
+                                <point x="0.0285714" y="0.0285714" />
+                                <point x="0.5" y="0" />
+                                <point x="0.971429" y="0.0285714" />
+                                <point x="1" y="0.5" />
+                                <point x="0.971429" y="0.971429" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0285714" y="0.971429" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="3K_DUAL" sid="937848920346644">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512821442037182" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\3K_dual.png">
+                            <collision-poly>
+                                <point x="0.927195" y="0.5" />
+                                <point x="0.925054" y="0.821429" />
+                                <point x="0.846895" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="3P_DUAL" sid="716221781108550">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="330829424488675" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\3P_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HK_DUAL" sid="635123343871422">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338316703532163" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\HK_dual.png">
+                            <collision-poly>
+                                <point x="0.769807" y="0.548469" />
+                                <point x="0.747323" y="0.5" />
+                                <point x="0.667024" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HP_DUAL" sid="830625124889393">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883633169409956" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\HP_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LK_DUAL" sid="168965298115456">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840419414730321" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\LK_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LP_DUAL" sid="358810208152637">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915872914734922" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\LP_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MK_DUAL" sid="544312893122270">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="763557820258183" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\MK_dual.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.484694" />
+                                <point x="0.567452" y="0.5" />
+                                <point x="0.5" y="0.834184" />
+                                <point x="0.486081" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MP_DUAL" sid="629590665898010">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382067729952340" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\MP_dual.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.0765306" />
+                                <point x="0.638116" y="0.137755" />
+                                <point x="0.5" y="0.298469" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MODE_DUAL" sid="990696305862100">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="739224114060508" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SELECT_DUAL" sid="132517174492086">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="297033976684080" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="START_DUAL" sid="114665480577188">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="599984370811529" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_DOWN_DUAL" sid="328468543133270">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577581603636872" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_LEFT_DUAL" sid="800616690110864">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385568841077701" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_RIGHT_DUAL" sid="789901619392556">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="900767358440285" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CROSSUP_UP_DUAL" sid="595721224300161">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946668186634479" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_DOWN_DUAL" sid="447573074298578">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="960927103295262" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_LEFT_DUAL" sid="272533116144548">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738666248319353" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_RIGHT_DUAL" sid="585088005979892">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327918580155263" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HITBOX_UP_DUAL" sid="877681214016849">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="481140858972832" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="L:\ULTIMATE TRALHA VS CAPCOM 3\ZONA\Catarsy Arcade\arcade builder\crossup_down_dual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_1" sid="406805870870074">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964100637796253" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_2" sid="639645151421100">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444319357955991" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_3" sid="334303677734548">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="639458319088808" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="493148820177199" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_4" sid="856376560040145">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780399235074853" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="820374505521687" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_5" sid="683272646496802">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="333033727648855" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="905260822103302" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_6" sid="185207358894952">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="752431204214956" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="929025394418345" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_1_border" sid="418191439972527">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="297724085147944" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_2_border" sid="155590927188839">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940005885533908" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_3_border" sid="819990127962232">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267781596719149" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_4_border" sid="895753265223275">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184238396316652" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_5_border" sid="809184021373011">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788742304795794" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_6_border" sid="790647351189207">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217243807995575" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_7" sid="699376376848097">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539175408846104" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="836270617170334" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_8" sid="409391615287660">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714971526368137" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="862876661078801" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_9" sid="628478006696486">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262798916048359" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="892539593069323" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_10" sid="986541324146885">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382096052957807" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="226746839339313" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EXTRA_11" sid="577160668798498">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="800769852204271" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Smashbox_S" pingpong="0" repeatcount="1" repeatto="0" sid="367855142460261" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\uni_small.png">
+                            <collision-poly>
+                                <point x="0.151515" y="0.151515" />
+                                <point x="0.5" y="0" />
+                                <point x="0.848485" y="0.151515" />
+                                <point x="1" y="0.5" />
+                                <point x="0.848485" y="0.848485" />
+                                <point x="0.5" y="0.984848" />
+                                <point x="0.151515" y="0.848485" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Legend">
+            <object-type name="leg_X" sid="363957415188215">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517890914594426" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN1.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="681743012528457" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_A.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_O" sid="488207818592881">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="342264251198717" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN2.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="706855777623219" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_B.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_SQUARE" sid="667535203853432">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="239169690487046" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN3.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="997367428272844" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN1.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_TRIANGLE" sid="997106327422726">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503502887412542" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN4.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="840487223016553" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_Y.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_L1" sid="152081059882731">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370163641712462" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN5.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="401530682974493" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_LB.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_L2" sid="354945423999086">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945457541610840" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN6.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="955921988659249" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_LT.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_R1" sid="727159339148564">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854734721509986" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN7.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="587356719223624" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_RB.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="leg_R2" sid="464946106757220">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392371550944103" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN8.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="X" pingpong="0" repeatcount="1" repeatto="0" sid="518021133233895" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Arcade Builder\BTN\BTN_RT.png">
+                            <collision-poly>
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="1" y="0.5" />
+                                <point x="0.85" y="0.85" />
+                                <point x="0.5" y="1" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="OUTLINE" sid="481068109589424">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300184780092266" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\frame.png">
+                        <collision-poly>
+                            <point x="0.000924214" y="0.00188679" />
+                            <point x="0.999076" y="0.00188679" />
+                            <point x="0.999076" y="0.998113" />
+                            <point x="0.000924214" y="0.998113" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BTN_COLOR" sid="468213084833670">
+            <plugin id="List" />
+            <instance-variables>
+                <instance-variable name="BTN" sid="268259408667178" type="number" />
+                <instance-variable name="Extra" sid="231341488318921" type="boolean" />
+                <instance-variable name="Hitbox" sid="439639833148280" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="FileChooser" sid="975309427735877">
+            <plugin id="filechooser" />
+        </object-type>
+        <object-type name="Function" sid="731396075743156">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="AJAX" sid="151231766396992">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="BG" sid="357414711351108">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="ART" sid="593922081882966">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700100166630586" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BOTÕES" sid="461130509681020">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="IsDimension" sid="780594120591009" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="BTN_TYPE" sid="243431397430285">
+            <plugin id="List" />
+            <instance-variables>
+                <instance-variable name="BTN" sid="877199806757270" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="SaveButton" sid="986914065590254">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="Active" sid="727215200455259" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Browser" sid="883554408365982">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="LOGO" sid="331889361252014">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100665328057424" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502451" original-source="C:\Users\Piu\Desktop\logobuilder.png">
+                        <collision-poly>
+                            <point x="0.0763968" y="0.0540214" />
+                            <point x="0.916477" y="0.0590607" />
+                            <point x="0.869441" y="0.499899" />
+                            <point x="0.855473" y="0.897803" />
+                            <point x="0.5" y="0.959484" />
+                            <point x="0.148233" y="0.895182" />
+                            <point x="0.132269" y="0.499899" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BOTÕES2" sid="533642536096384">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="307018178340492">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="932817891293815" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\Template_Arcade (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Trans_Corner" sid="356853049319768">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317875123014578" speed="5">
+                    <frame duration="1" hotspotX="0.503268" hotspotY="0.502674" original-source="C:\Users\Piu\Desktop\Catarsy Arcade\corner.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.496732" y="0" />
+                            <point x="0.0653595" y="0.764706" />
+                            <point x="0.228758" y="0.497326" />
+                            <point x="0.294118" y="0.42246" />
+                            <point x="0.496732" y="0.251337" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BTN_LEGEND" sid="349272715527051">
+            <plugin id="List" />
+            <instance-variables>
+                <instance-variable name="BTN" sid="477221569287468" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="OUTLINE_V2" sid="474258463636385">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Mod1" pingpong="0" repeatcount="1" repeatto="0" sid="778022476664776" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\outkine3.png">
+                        <collision-poly>
+                            <point x="0.000924214" y="0.00188679" />
+                            <point x="0.999076" y="0.00188679" />
+                            <point x="0.999076" y="0.998113" />
+                            <point x="0.000924214" y="0.998113" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Mod2" pingpong="0" repeatcount="1" repeatto="0" sid="315449453722547" speed="5">
+                    <frame duration="1" hotspotX="0.500375" hotspotY="0.500747" original-source="C:\Users\Piu\Desktop\frame_xl.png">
+                        <collision-poly>
+                            <point x="0.000924214" y="0.00188679" />
+                            <point x="0.999076" y="0.00188679" />
+                            <point x="0.999076" y="0.998113" />
+                            <point x="0.000924214" y="0.998113" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Mod3" pingpong="0" repeatcount="1" repeatto="0" sid="253877615517456" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501031" original-source="C:\Users\Piu\Desktop\ol_mod3.png">
+                        <collision-poly>
+                            <point x="0.000924214" y="0.00188679" />
+                            <point x="0.999076" y="0.00188679" />
+                            <point x="0.999076" y="0.998113" />
+                            <point x="0.000924214" y="0.998113" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Mod4" pingpong="0" repeatcount="1" repeatto="0" sid="872254380020517" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\ol_mod4.png">
+                        <collision-poly>
+                            <point x="0.00437063" y="0.00814332" />
+                            <point x="0.995629" y="0.00814332" />
+                            <point x="0.996503" y="0.993485" />
+                            <point x="0.0034965" y="0.993485" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Mod5" pingpong="0" repeatcount="1" repeatto="0" sid="349780066050692" speed="5">
+                    <frame duration="1" hotspotX="0.500469" hotspotY="0.501035" original-source="C:\Users\Piu\Desktop\mod5.png">
+                        <collision-poly>
+                            <point x="0.00468604" y="0.010352" />
+                            <point x="0.995314" y="0.010352" />
+                            <point x="0.996251" y="0.991718" />
+                            <point x="0.00468604" y="0.989648" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Builder_BG" sid="844602139083195">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Mod1" pingpong="0" repeatcount="1" repeatto="0" sid="902104665085159" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Piu\Desktop\bg_mod1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Mod2" pingpong="0" repeatcount="1" repeatto="0" sid="526595303715187" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Piu\Desktop\bg_mod2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Mod3" pingpong="0" repeatcount="1" repeatto="0" sid="911287545477749" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Piu\Desktop\bg_mod3.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Mod4" pingpong="0" repeatcount="1" repeatto="0" sid="557092500853260" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Piu\Desktop\bg_mod4.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Mod5" pingpong="0" repeatcount="1" repeatto="0" sid="577822074708076" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Piu\Desktop\bg_mod5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BTN_Universal_Stick" sid="769563392615564">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769971931070987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\btn_24_v2.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.151515" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.151515" />
+                            <point x="1" y="0.5" />
+                            <point x="0.848485" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.151515" y="0.848485" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BTN_Universal" sid="732664780301948">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347785585571825" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\btn_30_v2.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.151515" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.151515" />
+                            <point x="1" y="0.5" />
+                            <point x="0.848485" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.151515" y="0.848485" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Small" pingpong="0" repeatcount="1" repeatto="0" sid="605452359411365" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\btn_24_v2.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.151515" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.151515" />
+                            <point x="1" y="0.5" />
+                            <point x="0.848485" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.151515" y="0.848485" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Mix" pingpong="0" repeatcount="1" repeatto="0" sid="858954031727981" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.512821" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="161444484364168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Americano" pingpong="0" repeatcount="1" repeatto="0" sid="574486175772573" speed="5">
+                    <frame duration="1" hotspotX="0.500117" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\outline_ameri.png">
+                        <collision-poly>
+                            <point x="0.0164435" y="0.971842" />
+                            <point x="0.000469804" y="0.5" />
+                            <point x="0.0166784" y="0.0285599" />
+                            <point x="0.499883" y="0.000402272" />
+                            <point x="0.983322" y="0.0285599" />
+                            <point x="1" y="0.5" />
+                            <point x="0.983322" y="0.97144" />
+                            <point x="0.499883" y="0.999598" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Japones" pingpong="0" repeatcount="1" repeatto="0" sid="372490824972386" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500201" original-source="C:\Users\Piu\Desktop\outline_japa.png">
+                        <collision-poly>
+                            <point x="0.0166588" y="0.0285026" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98381" y="0.0276997" />
+                            <point x="1" y="0.499799" />
+                            <point x="0.983576" y="0.971899" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0166588" y="0.971497" />
+                            <point x="0" y="0.499799" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Hitbox" pingpong="0" repeatcount="1" repeatto="0" sid="282817409587548" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500201" original-source="C:\Users\Piu\Desktop\hit_outline.png">
+                        <collision-poly>
+                            <point x="0.0166588" y="0.0285026" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98381" y="0.0276997" />
+                            <point x="1" y="0.499799" />
+                            <point x="0.983576" y="0.971899" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0166588" y="0.971497" />
+                            <point x="0" y="0.499799" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="CrossUp" pingpong="0" repeatcount="1" repeatto="0" sid="550489980654901" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500201" original-source="C:\Users\Piu\Desktop\outline_cross.png">
+                        <collision-poly>
+                            <point x="0.0166588" y="0.0285026" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98381" y="0.0276997" />
+                            <point x="1" y="0.499799" />
+                            <point x="0.983576" y="0.971899" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0166588" y="0.971497" />
+                            <point x="0" y="0.499799" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Mixbox" pingpong="0" repeatcount="1" repeatto="0" sid="429009137438306" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500201" original-source="C:\Users\Piu\Desktop\outline_mix.png">
+                        <collision-poly>
+                            <point x="0.0166588" y="0.0285026" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98381" y="0.0276997" />
+                            <point x="1" y="0.499799" />
+                            <point x="0.983576" y="0.971899" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0166588" y="0.971497" />
+                            <point x="0" y="0.499799" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="AltHitbox" pingpong="0" repeatcount="1" repeatto="0" sid="651047808034066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500201" original-source="C:\Users\Piu\Desktop\outline_alt.png">
+                        <collision-poly>
+                            <point x="0.0166588" y="0.0285026" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98381" y="0.0276997" />
+                            <point x="1" y="0.499799" />
+                            <point x="0.983576" y="0.971899" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0166588" y="0.971497" />
+                            <point x="0" y="0.499799" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Smashbox" pingpong="0" repeatcount="1" repeatto="0" sid="787327177258659" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\bok_ref.png">
+                        <collision-poly>
+                            <point x="0.0034965" y="0.00651466" />
+                            <point x="0.996503" y="0.00651466" />
+                            <point x="0.996503" y="0.993485" />
+                            <point x="0.0034965" y="0.993485" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BTN_SIZE" sid="273004800821924">
+            <plugin id="List" />
+            <instance-variables>
+                <instance-variable name="BTN" sid="753449305173798" type="number" />
+                <instance-variable name="Extra" sid="872923633713501" type="boolean" />
+                <instance-variable name="Hitbox" sid="739583918760482" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="BTN_Universal_Border" sid="237178279227345">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381878744012604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\btn_border_30.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.151515" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.151515" />
+                            <point x="1" y="0.5" />
+                            <point x="0.848485" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.151515" y="0.848485" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Small" pingpong="0" repeatcount="1" repeatto="0" sid="267028442749183" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Piu\Desktop\btn_24_border.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.151515" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.151515" />
+                            <point x="1" y="0.5" />
+                            <point x="0.848485" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.151515" y="0.848485" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BTN_Universal_Mix" sid="392180826253494">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="803353156531176" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.512821" original-source="C:\Users\Piu\Desktop\btn_30_v2.png">
+                        <collision-poly>
+                            <point x="0.25641" y="0.25641" />
+                            <point x="0.846154" y="0" />
+                            <point x="1" y="0.25641" />
+                            <point x="1" y="0.846154" />
+                            <point x="1" y="1" />
+                            <point x="0.846154" y="1" />
+                            <point x="0.25641" y="1" />
+                            <point x="0" y="0.846154" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SaveButton2" sid="137692854180808">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="Active" sid="542159298754459" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="LayoutChangeArcade" sid="893963964247496">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="Active" sid="996909063633157" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="LayoutChangeSmash" sid="416017440322317">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="Active" sid="723498916875932" type="boolean" />
+            </instance-variables>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Buttons" plugin-id="Sprite" sid="632371668164084">
+            <members>
+                <member>3K</member>
+                <member>3K_DUAL</member>
+                <member>3P</member>
+                <member>3P_DUAL</member>
+                <member>CROSSUP_DOWN</member>
+                <member>CROSSUP_DOWN_DUAL</member>
+                <member>CROSSUP_LEFT</member>
+                <member>CROSSUP_LEFT_DUAL</member>
+                <member>CROSSUP_RIGHT</member>
+                <member>CROSSUP_RIGHT_DUAL</member>
+                <member>CROSSUP_UP</member>
+                <member>CROSSUP_UP_DUAL</member>
+                <member>HITBOX_DOWN</member>
+                <member>HITBOX_DOWN_DUAL</member>
+                <member>HITBOX_LEFT</member>
+                <member>HITBOX_LEFT_DUAL</member>
+                <member>HITBOX_RIGHT</member>
+                <member>HITBOX_RIGHT_DUAL</member>
+                <member>HITBOX_UP</member>
+                <member>HITBOX_UP_DUAL</member>
+                <member>HK</member>
+                <member>HK_DUAL</member>
+                <member>HP</member>
+                <member>HP_DUAL</member>
+                <member>LK</member>
+                <member>LK_DUAL</member>
+                <member>LP</member>
+                <member>LP_DUAL</member>
+                <member>MIXBOX_DOWN</member>
+                <member>MIXBOX_LEFT</member>
+                <member>MIXBOX_RIGHT</member>
+                <member>MIXBOX_UP</member>
+                <member>MK</member>
+                <member>MK_DUAL</member>
+                <member>MODE</member>
+                <member>MODE_DUAL</member>
+                <member>MP</member>
+                <member>MP_DUAL</member>
+                <member>OUTLINE</member>
+                <member>OUTLINE_V2</member>
+                <member>SELECT</member>
+                <member>SELECT_DUAL</member>
+                <member>START</member>
+                <member>START_DUAL</member>
+                <member>STICK</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Color" sid="654897441521868" type="string" />
+                <instance-variable name="Index" sid="263844364851400" type="number" />
+            </instance-variables>
+            <effects>
+                <effect-type name="SetColor">
+                    <effect id="setcolor" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="Legend" plugin-id="Sprite" sid="418349263626238">
+            <members>
+                <member>leg_L1</member>
+                <member>leg_L2</member>
+                <member>leg_O</member>
+                <member>leg_R1</member>
+                <member>leg_R2</member>
+                <member>leg_SQUARE</member>
+                <member>leg_TRIANGLE</member>
+                <member>leg_X</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Extra" sid="616776408847525" type="boolean" />
+            </instance-variables>
+            <effects>
+                <effect-type name="SetColor">
+                    <effect id="tint" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="Buttons_v2" plugin-id="Sprite" sid="605595129817597">
+            <members>
+                <member>BTN_Universal</member>
+                <member>BTN_Universal_Border</member>
+                <member>BTN_Universal_Mix</member>
+                <member>BTN_Universal_Stick</member>
+                <member>EXTRA_1</member>
+                <member>EXTRA_10</member>
+                <member>EXTRA_11</member>
+                <member>EXTRA_1_border</member>
+                <member>EXTRA_2</member>
+                <member>EXTRA_2_border</member>
+                <member>EXTRA_3</member>
+                <member>EXTRA_3_border</member>
+                <member>EXTRA_4</member>
+                <member>EXTRA_4_border</member>
+                <member>EXTRA_5</member>
+                <member>EXTRA_5_border</member>
+                <member>EXTRA_6</member>
+                <member>EXTRA_6_border</member>
+                <member>EXTRA_7</member>
+                <member>EXTRA_8</member>
+                <member>EXTRA_9</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Index" sid="861232700427382" type="number" />
+                <instance-variable name="Color" sid="745272627619058" type="string" />
+                <instance-variable name="Type" sid="880446881895161" type="string" />
+            </instance-variables>
+            <effects>
+                <effect-type name="SetColor">
+                    <effect id="setcolor" />
+                </effect-type>
+            </effects>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Arcades.xml</layout>
+        <layout>Smashbox.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Info.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>ES_Update.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Function" uid="26" />
+        <global-instance type="AJAX" uid="27" />
+        <global-instance type="Browser" uid="47" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
