@@ -1444,6 +1444,12 @@
                 <instance-variable name="Active" sid="723498916875932" type="boolean" />
             </instance-variables>
         </object-type>
+        <object-type name="ResetButton" sid="658239537434570">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="Active" sid="725122078886951" type="boolean" />
+            </instance-variables>
+        </object-type>
     </object-folder>
     <families>
         <family name="Buttons" plugin-id="Sprite" sid="632371668164084">

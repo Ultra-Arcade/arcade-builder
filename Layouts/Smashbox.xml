@@ -39,11 +39,11 @@
                     <blend-mode>4</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>959</x>
-                        <y>348</y>
+                        <x>962</x>
+                        <y>349</y>
                         <z>0</z>
-                        <width>1144</width>
-                        <height>614</height>
+                        <width>1332</width>
+                        <height>668</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -3203,7 +3203,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1672</x>
-                        <y>640</y>
+                        <y>620</y>
                         <z>0</z>
                         <width>208</width>
                         <height>68</height>
@@ -3377,7 +3377,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1632</x>
-                        <y>696</y>
+                        <y>792</y>
                         <z>0</z>
                         <width>132</width>
                         <height>36</height>
@@ -3406,6 +3406,33 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1644</x>
+                        <y>824</y>
+                        <z>0</z>
+                        <width>112</width>
+                        <height>24</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="ResetButton" uid="490">
+                    <properties>
+                        <type>Button</type>
+                        <text>RESET</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <instance-variables>
+                        <Active>false</Active>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1640</x>
                         <y>728</y>
                         <z>0</z>
                         <width>112</width>
@@ -3413,6 +3440,36 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="BOTÕES" uid="491">
+                    <properties>
+                        <text>RESETAR LAYOUT</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <IsDimension>false</IsDimension>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1632</x>
+                        <y>668</y>
+                        <z>0</z>
+                        <width>132</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
@@ -5295,7 +5352,7 @@
                 </instance>
                 <instance type="BOTÕES2" uid="460">
                     <properties>
-                        <text>ver 2.3</text>
+                        <text>ver 2.4</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,400,0</font>
                         <color>255,255,255</color>

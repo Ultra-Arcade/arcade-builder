@@ -17760,6 +17760,15 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
+                        <event-block sid="872239228750138">
+                            <conditions>
+                                <condition id="0" name="On clicked" sid="956150521411222" type="ResetButton" />
+                            </conditions>
+                            <actions>
+                                <action id="-26" name="Restart layout" sid="732695889273165" type="System" />
+                                <action id="-21" name="Reset global variables" sid="132548329200609" type="System" />
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
                 <event-group description="" sid="343873504928722" title="BTN Legend">

@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>990.383</position-x>
-        <position-y>618.517</position-y>
-        <position-z>127.517</position-z>
-        <lookat-x>990.383</lookat-x>
-        <lookat-y>618.517</lookat-y>
+        <position-x>1087.24</position-x>
+        <position-y>349.756</position-y>
+        <position-z>186.697</position-z>
+        <lookat-x>1087.24</lookat-x>
+        <lookat-y>349.756</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>1</snap-to-grid>
@@ -23,7 +23,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Extra Lists" />
+    <active-layer name="Frame" />
     <layers>
         <layer locked="1" name="Art" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Background" parallax-in-editor="0" visible="1" />
@@ -32,7 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="0" name="Extra Lists" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Default" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Default Border" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Frame" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Frame" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Legend" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="Outline Referencer" parallax-in-editor="0" visible="0" />
     </layers>
