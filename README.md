@@ -1,6 +1,7 @@
 # Arcade Builder (HTML5)
 
-[gif do programa em ação]
+[ExampleUsage.webm](https://user-images.githubusercontent.com/11778557/180760613-1b731b34-b6ba-47a1-9874-4af2d98b4cfe.webm)
+
 
 ## Overview
 
